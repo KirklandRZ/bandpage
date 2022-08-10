@@ -1,23 +1,22 @@
-h1{
-  text-align: center;
-}
-img {
-  float:left;
-  size: 50%;
-}
-p {
-  float: left;
-  font-weight: bolder;
+div.top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
 }
 div.sidebar{
   float:right;
   width:10%;
   background-color: rgb(43, 103, 138);
+  border: double;
+  list-style:disc;
+
+  text-align: center;
 }
 div.column{
   width:500px;
-  text-align: center;
   float:left;
+  text-align: center;
 }
 body{
   background-color: rgb(66, 37, 37);
